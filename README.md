@@ -26,55 +26,52 @@ Clone the repo:
 ```bash
   $ git clone https://github.com/ossker/bookmarks-app.git
 ```
-
+```bash
+  $ cd bookmarks
+```
 
 If virtualenv is not installed:
 
 ```bash
-    $ pip install virtualenv
+  $ pip install virtualenv
 ```
 
-Create a virtual environment inside your folder with project:
+Create a virtual environment:
 ```bash
-    python3 -m venv env
+  python3 -m venv env
 ```
 
 Activate the environment everytime you open the project:
 ```bash
-    env/Scripts/activate
+  env/Scripts/activate
 ```
 
 Install requirements:
 ```bash
-    $ pip install -r requirements.txt
-```
-
-Go to project folder:
-```bash
-    $ cd bookmarks
+  $ pip install -r requirements.txt
 ```
 
 Run migrations for database:
 ```bash
-    $ python manage.py makemigrations
+  $ python manage.py makemigrations
 ```
 ```bash
-    $ python manage.py migrate
+  $ python manage.py migrate
 ```
 Create superuser for admin login:
 
 ```bash
-    $ python manage.py createsuperuser
+  $ python manage.py createsuperuser
 ```
 
 Now you can run the server to see your application up & running 🚀
 ```bash
-    $ python manage.py runserver
+  $ python manage.py runserver
 ```
 
 To exit the environment:
 ```bash
-    $ deactivate
+  $ deactivate
 ```
 
 ## Leave a ⭐ if you like 👨‍💻
